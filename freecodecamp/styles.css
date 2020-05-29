@@ -1,10 +1,11 @@
 /* Last Rule And Specifity * Universal Selector */
 
-/* Last Rule is going to apply, not first */
-p {
-    color: blue;
-}
-p{
+/* Specifity */
+.red {
     color: red;
+
 }
 
+p{
+    color: blue;
+}
