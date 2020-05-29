@@ -1,12 +1,11 @@
-body {
+/* ID */
+
+#title{
+    color: green;
+    background: black;
+}
+
+#subheading{
     color: red;
+    background: gray;
 }
-h1,h2 {
-    color: blue;
-}
-/* css rule */
-/* selectors */
-/* declaration block */
-/* declaration */
-/* property */
-/* value */
