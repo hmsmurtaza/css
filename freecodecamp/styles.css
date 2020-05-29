@@ -1,9 +1,11 @@
-/* Last Rule And Specifity * Universal Selector */
+/* COLOR PROPERTIES */
+/* COLOR BACKGROUND-COLOR */
 
-/* Universal Selector */
-p{
-    color: red;
+#first {
+    color: lightslategrey;
+    background-color: chocolate;
 }
-* {
-    color: blue;
+#second{
+    color: crimson;
+    background: yellow;
 }
