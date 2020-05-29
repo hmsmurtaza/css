@@ -1,11 +1,9 @@
 /* Last Rule And Specifity * Universal Selector */
 
-/* Specifity */
-.red {
-    color: red;
-
-}
-
+/* Universal Selector */
 p{
+    color: red;
+}
+* {
     color: blue;
 }
