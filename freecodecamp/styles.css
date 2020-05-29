@@ -1,13 +1,10 @@
-/* INHERITANCE */
+/* Last Rule And Specifity * Universal Selector */
 
-body{
-   font-family: monospace;
-   line-height: 1.5em;
-}
-div{
+/* Last Rule is going to apply, not first */
+p {
     color: blue;
-    border: 3px solid black;    /* not every property got inherited in the child elements */
 }
-h1{
-    color: green;
+p{
+    color: red;
 }
+
