@@ -1,28 +1,9 @@
-/* 
-HSL 
-HEX VALUES #RRGGBB
-0123456789 A==10 B==11 C==12 D==13 E==14 F==15 
-            10 11 12 13 14 15
-            #FF0000 - RED
-            #00FF00 - GREEN
-*/
+/* font-size, width, height, pixels */
 
-#first {
-    color: #d81159;
-    background:#9d4edd;
+h1{
+    font-size: 60px;
+    width: 200px;
+    height: 300px;
+    background: blue;
 }
-#second {
-    color: #fff;
-    background: #00ff00;
-}
-#three {
-    color: #0000ff;
-    background: #f15025;
-}
-#four {
-    color: #f234ad;
-    background: #222;
-}
-body{
-    background: rgba(10,200,200,0.56);
-}
+
