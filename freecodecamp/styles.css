@@ -1,13 +1,13 @@
-/* DIV SPAN */
+/* INHERITANCE */
 
-.green {
+body{
+   font-family: monospace;
+   line-height: 1.5em;
+}
+div{
+    color: blue;
+    border: 3px solid black;    /* not every property got inherited in the child elements */
+}
+h1{
     color: green;
-}
-.red {
-    color: red;
-    background: grey;
-}
-
-span{
-    text-transform: uppercase;
 }
