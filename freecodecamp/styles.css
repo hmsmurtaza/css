@@ -1,4 +1,7 @@
 /* Percent Values - RELATIVE */
+body{
+    background: #264653;
+}
 .outer {
     width: 400px;
     height: 200px;
