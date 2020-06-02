@@ -1,3 +1,4 @@
+
 /* Percent Values - RELATIVE */
 body{
     background: #264653;
@@ -6,6 +7,7 @@ body{
     width: 400px;
     height: 200px;
     background: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .inner {
     width: 100%;
