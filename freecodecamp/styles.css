@@ -1,8 +1,10 @@
+
 /* Percent Values - RELATIVE */
 .outer {
     width: 400px;
     height: 200px;
     background: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .inner {
     width: 100%;
