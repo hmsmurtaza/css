@@ -1,24 +1,9 @@
 /* 
-calc()
-perform match oprations + - * /
-mix and match values
+font-family font-size
 */
-* {
-    margin: 0;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.navbar {
-    background: blue;
-    color: white;
-    height: 100px;
-    font-size:3rem;
-}
-.banner {
-    background: red;
-    /* by using following property, 
-    scroll bar will be added on the page
-    min-height: 100vh; */
-    /* by using following method, 
-    height will be exactly 100%,
-    no scroll bar will be added */
-    min-height: calc(100vh - 100px);
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
