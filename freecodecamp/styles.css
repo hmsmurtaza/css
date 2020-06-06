@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
 /* 
-    GOOGLE fonts
+    text-align
+    text-indent
 */
 body{
     font-family: 'Dancing Script',
     cursive;
+    text-align: right;
 }
 .main{
     font-family: 'Roboto Slab',
     serif;
+    text-align: center;
+}
+.subheading {
+
 }
 .one {
-    font-weight: bold;
-    font-style: italic;
+    text-indent: 10rem;
 }
 .two {
-    font-weight: lighter;
-    font-style: oblique;
+    text-align: left;
 }
