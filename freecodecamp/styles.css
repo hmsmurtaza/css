@@ -1,24 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
-/* 
-    text-align
-    text-indent
-*/
-body{
-    font-family: 'Dancing Script',
-    cursive;
-    text-align: right;
-}
-.main{
-    font-family: 'Roboto Slab',
-    serif;
-    text-align: center;
-}
-.subheading {
 
+/* 
+    line-height
+    letter-spacing
+    word-spacing
+    text-transform
+    text-decoration
+*/
+a{
+    font-size: 40px;
+    text-decoration: none;
+}
+body{
+    text-transform: uppercase;
+}
+h1{
+    text-transform: lowercase;
+    text-decoration: line-through;
 }
 .one {
-    text-indent: 10rem;
+    line-height: 0.5em;
 }
 .two {
-    text-align: left;
+    letter-spacing: 5px;
+    text-decoration: overline;
+    line-height: 2rem;
+}
+.three {
+    word-spacing: 20px;
+    text-decoration: underline;
+    line-height: 2rem;
 }
