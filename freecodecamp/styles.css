@@ -1,13 +1,18 @@
 
 /* 
-   Default Dispaly Property
-   Block: Always starts a new line and takes full width
-   Inline: Does not start a new line and take up as much as content
+   Horizontal Centering
 */
+body{
+    text-align: center;
+}
 .block {
     background: blue;
     color: white;
+    width: 150px;
     /* display: inline; */
+    margin: 20px auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 .inline {
     background: red;
