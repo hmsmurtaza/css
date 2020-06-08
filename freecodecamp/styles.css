@@ -1,21 +1,37 @@
 
 /* 
-   Horizontal Centering
+   Block: Top Bottom Margin Respected
+   Inline: Top Bottom Margin not Respected
+   Mobile Navbar
+   list-style-type:property
+   descendant selectors
 */
-body{
-    text-align: center;
-}
-.block {
+/* div {
     background: blue;
     color: white;
-    width: 150px;
-    /* display: inline; */
-    margin: 20px auto;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    padding: 20px;
+    margin: 20px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.inline {
-    background: red;
-    color: white;
-    /* display: block; */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: #222;
+    color: #f15025;
+    display: block;
+    padding: 10px;
+    margin: 10px;
 }
